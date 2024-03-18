@@ -26,9 +26,14 @@ const Wrapper = styled.div`
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  padding: 0px 32px;
 `;
 
-const MarketingMessage = styled.span`
+  const MarketingMessage = styled.span`
+  margin-right: auto;
   color: ${COLORS.white};
 `;
 
@@ -36,6 +41,7 @@ const HelpLink = styled.a`
   color: inherit;
   text-decoration: none;
   outline-offset: 2px;
+  margin: 0 24px;
 
   &:not(:focus-visible) {
     outline: none;
